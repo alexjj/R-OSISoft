@@ -9,7 +9,7 @@ OSISoft have a history of deleting code previously made available and I'm taking
 
 * Installation is done manually. In RStudio select Tools\Install packages … and when the open dialog opens, change the option “Install from:” to “Packaged Archive File”
 * After the installation the library is loaded with: `library(ROSIsoft)`
-* To connect to AF and PI server use first: AFSetup() this will install dependencies such as rClr
+* To connect to AF and PI server use first: `AFSetup()` this will install dependencies such as rClr
   * If this doesn't work install the latest version [manually](https://github.com/rdotnet/rClr)
 * To connect to the PI server use the following:
 `connector<-ConnectToPIWithPrompt("<PI Server>")`  and `connector<-ConnectToAFWithPrompt("<AF Server>","AFDatabase")`

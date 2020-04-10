@@ -1,0 +1,188 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>R: Access OSIsoft PI server and AF\EF data</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+<h1> Access OSIsoft PI server and AF\EF data
+<img class="toplogo" src="../../../doc/html/Rlogo.svg" alt="[R logo]" />
+</h1>
+<hr/>
+<div style="text-align: center;">
+<a href="../../../doc/html/packages.html"><img class="arrow" src="../../../doc/html/left.jpg" alt="[Up]" /></a>
+<a href="../../../doc/html/index.html"><img class="arrow" src="../../../doc/html/up.jpg" alt="[Top]" /></a>
+</div><h2>Documentation for package &lsquo;ROSIsoft&rsquo; version 0.2.0</h2>
+
+<ul><li><a href="../DESCRIPTION">DESCRIPTION file</a>.</li>
+</ul>
+
+<h2>Help Pages</h2>
+
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="AFSetup.html">AFSetup</a></td>
+<td>Setup supporting libraries and static object ...</td></tr>
+<tr><td style="width: 25%;"><a href="CalculateCompressedValues.html">CalculateCompressedValues</a></td>
+<td>Apply Exception and Compression to Data Series ...</td></tr>
+<tr><td style="width: 25%;"><a href="CalculateDerivative.html">CalculateDerivative</a></td>
+<td>Calculate Derivative ...</td></tr>
+<tr><td style="width: 25%;"><a href="CalculateEMA.html">CalculateEMA</a></td>
+<td>Calculate EMA ...</td></tr>
+<tr><td style="width: 25%;"><a href="CalculateMA.html">CalculateMA</a></td>
+<td>Calculate MA ...</td></tr>
+<tr><td style="width: 25%;"><a href="CalculateMSD.html">CalculateMSD</a></td>
+<td>Calculate MSD ...</td></tr>
+<tr><td style="width: 25%;"><a href="CalculateNEMA.html">CalculateNEMA</a></td>
+<td>Calculate NEMA ...</td></tr>
+<tr><td style="width: 25%;"><a href="CalculateOutlier.html">CalculateOutlier</a></td>
+<td>Calculate Outlier ...</td></tr>
+<tr><td style="width: 25%;"><a href="CalculateZScore.html">CalculateZScore</a></td>
+<td>Calculate ZScore ...</td></tr>
+<tr><td style="width: 25%;"><a href="ConnectToAF.html">ConnectToAF</a></td>
+<td>Connect to AF with User Name and Password ...</td></tr>
+<tr><td style="width: 25%;"><a href="ConnectToAFandPI.html">ConnectToAFandPI</a></td>
+<td>Connect to PI Server with User Name and Password ...</td></tr>
+<tr><td style="width: 25%;"><a href="ConnectToAFWithPrompt.html">ConnectToAFWithPrompt</a></td>
+<td>Connect to AF with Prompt ...</td></tr>
+<tr><td style="width: 25%;"><a href="ConnectToDefaultAF.html">ConnectToDefaultAF</a></td>
+<td>Connect to Default AF Server and Database ...</td></tr>
+<tr><td style="width: 25%;"><a href="ConnectToDefaultAFandPI.html">ConnectToDefaultAFandPI</a></td>
+<td>Connect to Default PI Server ...</td></tr>
+<tr><td style="width: 25%;"><a href="ConnectToDefaultPI.html">ConnectToDefaultPI</a></td>
+<td>Connect to Default PI Server ...</td></tr>
+<tr><td style="width: 25%;"><a href="ConnectToPI.html">ConnectToPI</a></td>
+<td>Connect to PI Server as Windows User ...</td></tr>
+<tr><td style="width: 25%;"><a href="ConnectToPIWithPrompt.html">ConnectToPIWithPrompt</a></td>
+<td>Connect to PI Server with Prompt (TODO) ...</td></tr>
+<tr><td style="width: 25%;"><a href="CreateAFFile.html">CreateAFFile</a></td>
+<td>Create AF File ...</td></tr>
+<tr><td style="width: 25%;"><a href="CreateAttributeInAttribute.html">CreateAttributeInAttribute</a></td>
+<td>Create Attribute in Attribute ...</td></tr>
+<tr><td style="width: 25%;"><a href="CreateAttributeInElement.html">CreateAttributeInElement</a></td>
+<td>Create Attribute in Element ...</td></tr>
+<tr><td style="width: 25%;"><a href="CreateAttributeInFrame.html">CreateAttributeInFrame</a></td>
+<td>Creates Attribute in Frame ...</td></tr>
+<tr><td style="width: 25%;"><a href="CreateAttributesInElementTemplate.html">CreateAttributesInElementTemplate</a></td>
+<td>Create Attributes in Element Template ...</td></tr>
+<tr><td style="width: 25%;"><a href="CreateCalculationTag.html">CreateCalculationTag</a></td>
+<td>Create a Double Precision Calculation Point for Forecasting ...</td></tr>
+<tr><td style="width: 25%;"><a href="CreateElement.html">CreateElement</a></td>
+<td>Create Element ...</td></tr>
+<tr><td style="width: 25%;"><a href="CreateElementCategory.html">CreateElementCategory</a></td>
+<td>Create Element Category ...</td></tr>
+<tr><td style="width: 25%;"><a href="CreateElementTemplate.html">CreateElementTemplate</a></td>
+<td>Create Element Template ...</td></tr>
+<tr><td style="width: 25%;"><a href="CreateFrame.html">CreateFrame</a></td>
+<td>Create Frame ...</td></tr>
+<tr><td style="width: 25%;"><a href="DeleteAttributeByPath.html">DeleteAttributeByPath</a></td>
+<td>Deletes Attribute by Path ...</td></tr>
+<tr><td style="width: 25%;"><a href="DeleteAttributesByPaths.html">DeleteAttributesByPaths</a></td>
+<td>Deletes Attributes by Path ...</td></tr>
+<tr><td style="width: 25%;"><a href="DeletePointValues.html">DeletePointValues</a></td>
+<td>Delete Point Values ...</td></tr>
+<tr><td style="width: 25%;"><a href="DisconnectAll.html">DisconnectAll</a></td>
+<td>Disconnect from AF and PI Server ...</td></tr>
+<tr><td style="width: 25%;"><a href="DisconnectFromAF.html">DisconnectFromAF</a></td>
+<td>Disconnect from AF Server ...</td></tr>
+<tr><td style="width: 25%;"><a href="DisconnectFromPI.html">DisconnectFromPI</a></td>
+<td>Disconnect from PI Server ...</td></tr>
+<tr><td style="width: 25%;"><a href="FindAttributesByCategory.html">FindAttributesByCategory</a></td>
+<td>Finds Attributes by Category ...</td></tr>
+<tr><td style="width: 25%;"><a href="FindAttributesByName.html">FindAttributesByName</a></td>
+<td>Find Attributes by Name ...</td></tr>
+<tr><td style="width: 25%;"><a href="FindAttributesInElement.html">FindAttributesInElement</a></td>
+<td>Find Attributes in Element ...</td></tr>
+<tr><td style="width: 25%;"><a href="FindAttributesInFrame.html">FindAttributesInFrame</a></td>
+<td>Find Attributes in Frame ...</td></tr>
+<tr><td style="width: 25%;"><a href="FindAttributesInTemplate.html">FindAttributesInTemplate</a></td>
+<td>Find Attributes in Template ...</td></tr>
+<tr><td style="width: 25%;"><a href="FindChangedFrames.html">FindChangedFrames</a></td>
+<td>Listen to Frame Events ...</td></tr>
+<tr><td style="width: 25%;"><a href="FindElementsByCategory.html">FindElementsByCategory</a></td>
+<td>Find Elements by Category ...</td></tr>
+<tr><td style="width: 25%;"><a href="FindElementsByName.html">FindElementsByName</a></td>
+<td>Find Elements by Name ...</td></tr>
+<tr><td style="width: 25%;"><a href="FindElementsByPath.html">FindElementsByPath</a></td>
+<td>Find Elements by Path ...</td></tr>
+<tr><td style="width: 25%;"><a href="FindElementsByTemplate.html">FindElementsByTemplate</a></td>
+<td>Find Elements by Template ...</td></tr>
+<tr><td style="width: 25%;"><a href="FindElementTemplate.html">FindElementTemplate</a></td>
+<td>Find Element Element ...</td></tr>
+<tr><td style="width: 25%;"><a href="FindElementTemplatesByName.html">FindElementTemplatesByName</a></td>
+<td>Find Element Templates by Name ...</td></tr>
+<tr><td style="width: 25%;"><a href="FindFrames.html">FindFrames</a></td>
+<td>Find Frame by Start and End Times ...</td></tr>
+<tr><td style="width: 25%;"><a href="FindFramesByElement.html">FindFramesByElement</a></td>
+<td>Find Frame by Element ...</td></tr>
+<tr><td style="width: 25%;"><a href="FindFramesByTemplate.html">FindFramesByTemplate</a></td>
+<td>Find Frame by Template ...</td></tr>
+<tr><td style="width: 25%;"><a href="FindFrameTemplatesByName.html">FindFrameTemplatesByName</a></td>
+<td>Find Frame Templates by Name ...</td></tr>
+<tr><td style="width: 25%;"><a href="FindPointByName.html">FindPointByName</a></td>
+<td>Find PI Point ...</td></tr>
+<tr><td style="width: 25%;"><a href="FindPointsbyName.html">FindPointsbyName</a></td>
+<td>Find PI Points by Name ...</td></tr>
+<tr><td style="width: 25%;"><a href="FindPointsbyPointSource.html">FindPointsbyPointSource</a></td>
+<td>Find PI Points by Point Source ...</td></tr>
+<tr><td style="width: 25%;"><a href="GetAFCalculationBasis.html">GetAFCalculationBasis</a></td>
+<td>Get AF AF Calculation Basis ...</td></tr>
+<tr><td style="width: 25%;"><a href="GetAttributeSummaries.html">GetAttributeSummaries</a></td>
+<td>Get Attribute Summaries ...</td></tr>
+<tr><td style="width: 25%;"><a href="GetAttributeSummary.html">GetAttributeSummary</a></td>
+<td>Get Attribute Summary ...</td></tr>
+<tr><td style="width: 25%;"><a href="GetAttributeValue.html">GetAttributeValue</a></td>
+<td>Get Attribute Value ...</td></tr>
+<tr><td style="width: 25%;"><a href="GetAttributeValues.html">GetAttributeValues</a></td>
+<td>Get Attribute Values ...</td></tr>
+<tr><td style="width: 25%;"><a href="GetCompressionTypes.html">GetCompressionTypes</a></td>
+<td>List all Compression Types ...</td></tr>
+<tr><td style="width: 25%;"><a href="GetConnection.html">GetConnection</a></td>
+<td>Get the Connection Object ...</td></tr>
+<tr><td style="width: 25%;"><a href="GetMaxItemReturn.html">GetMaxItemReturn</a></td>
+<td>Get the Maximum Number of Items to Return ...</td></tr>
+<tr><td style="width: 25%;"><a href="GetMESCV.html">GetMESCV</a></td>
+<td>Calculate Stats on Exception and Compression ...</td></tr>
+<tr><td style="width: 25%;"><a href="GetMultiplePointValues.html">GetMultiplePointValues</a></td>
+<td>Get Multiple Point Values ...</td></tr>
+<tr><td style="width: 25%;"><a href="GetPIServers.html">GetPIServers</a></td>
+<td>Get the Connection Object ...</td></tr>
+<tr><td style="width: 25%;"><a href="GetPointAttributes.html">GetPointAttributes</a></td>
+<td>Get PI Point Attributes...</td></tr>
+<tr><td style="width: 25%;"><a href="GetPointStatistics.html">GetPointStatistics</a></td>
+<td>Get Point Data Statistics ...</td></tr>
+<tr><td style="width: 25%;"><a href="GetPointSummaries.html">GetPointSummaries</a></td>
+<td>Get Point Summaries ...</td></tr>
+<tr><td style="width: 25%;"><a href="GetPointSummary.html">GetPointSummary</a></td>
+<td>Get Point Summary ...</td></tr>
+<tr><td style="width: 25%;"><a href="GetPointValue.html">GetPointValue</a></td>
+<td>Get Point Value ...</td></tr>
+<tr><td style="width: 25%;"><a href="GetPointValues.html">GetPointValues</a></td>
+<td>Get Point Values ...</td></tr>
+<tr><td style="width: 25%;"><a href="GetRetrievalModes.html">GetRetrievalModes</a></td>
+<td>Get Retrieval Modes ...</td></tr>
+<tr><td style="width: 25%;"><a href="GetRetrievalTypes.html">GetRetrievalTypes</a></td>
+<td>Get Retrieval Types ...</td></tr>
+<tr><td style="width: 25%;"><a href="GetSnapShotData.html">GetSnapShotData</a></td>
+<td>Get Snapshot Data for Single Point ...</td></tr>
+<tr><td style="width: 25%;"><a href="GetSummaryTypes.html">GetSummaryTypes</a></td>
+<td>Get Summary Types ...</td></tr>
+<tr><td style="width: 25%;"><a href="GetUOMs.html">GetUOMs</a></td>
+<td>Get UOM's ...</td></tr>
+<tr><td style="width: 25%;"><a href="SetAFDatabase.html">SetAFDatabase</a></td>
+<td>Set the AF Database ...</td></tr>
+<tr><td style="width: 25%;"><a href="SetAFServer.html">SetAFServer</a></td>
+<td>Set the AF Server ...</td></tr>
+<tr><td style="width: 25%;"><a href="SetMaxItemReturn.html">SetMaxItemReturn</a></td>
+<td>Set the Maximum Number of Items to Return ...</td></tr>
+<tr><td style="width: 25%;"><a href="SetPIServer.html">SetPIServer</a></td>
+<td>Set the PI Server ...</td></tr>
+<tr><td style="width: 25%;"><a href="SetPointValue.html">SetPointValue</a></td>
+<td>Set Point Value ...</td></tr>
+<tr><td style="width: 25%;"><a href="SetPointValues.html">SetPointValues</a></td>
+<td>Set Point Values ...</td></tr>
+<tr><td style="width: 25%;"><a href="Statistics.html">Statistics</a></td>
+<td>Calculate Compression Statistics ...</td></tr>
+<tr><td style="width: 25%;"><a href="ValueTest.html">ValueTest</a></td>
+<td>Compare a Point Value against a Source Value ...</td></tr>
+</table>
+</body></html>

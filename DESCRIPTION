@@ -1,0 +1,17 @@
+Package: ROSIsoft
+Type: Package
+Title: Access OSIsoft PI server and AF\EF data
+Version: 0.2.0
+Authors@R: person("Ernst Holger", "Amort", email = "holgeramort@gmail.com",
+  role = c("aut", "cre","cph"))
+Maintainer: Ernst Holger Amort <holgeramort@gmail.com>
+Description: ROSIsoft is a package to connect to the OSIsoft PI System, read and write data. The library is built in C# using the PI AF-SDK.
+License: MIT for R code, any dll is licensed for the R environment
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Depends: R (>= 3.1.0)
+Suggests: xts, forecast
+OS_type: windows
+Author: Ernst Holger Amort [aut, cre, cph]
+Built: R 3.4.2; ; 2018-03-08 14:21:20 UTC; windows

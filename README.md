@@ -114,3 +114,6 @@ GetPointAttributes('sinusoid', c('step', 'creationdate'))
 1         step                   0
 2 creationdate 06/10/2005 13:38:18
 ```
+## Support
+
+Contact the original author in the [PI Square thread]((https://pisquare.osisoft.com/blogs/holgeramort/2018/02/19/rosisoft-osisoft-pi-and-r-version-2).
